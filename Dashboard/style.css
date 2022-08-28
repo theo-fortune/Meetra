@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard {
+  display: flex;
+  /* height: 100%; */
+}
+
+.dashboard__left {
+  background: #1e1e1e;
+  border-radius: 0px 50px 0px 0px;
+  width: 15%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.dashboard__left-logo h2 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 52px;
+  margin-top: 84px;
+}
+
+.dashboard__left-logo span {
+  font-weight: 500;
+}
+
+.dashboard__left-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.dashboard__left-icons a {
+  width: 100%;
+}
+
+.dashboard__left-icons a:last-child {
+  margin-top: 30px;
+}
+
+.dashboard__right {
+  width: 85%;
+  padding: 84px;
+}
+
+.dashboard__right_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard__right_top-left h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  color: #1e1e1e;
+}
+
+.dashboard__right_top-left p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #9b9b9b;
+}
+
+.dashboard__right_top-right-input {
+  display: flex;
+  align-items: center;
+  width: 287px;
+  height: 57px;
+
+  border: 2px solid #9b9b9b;
+  border-radius: 7px;
+  padding: 8px 10px;
+}
+
+.dashboard__right_top-right {
+  display: flex;
+  gap: 40px;
+}
+
+.dashboard__right_top-right-input input {
+  border: none;
+  outline: none;
+  width: 287px;
+  height: 50px;
+}
+
+.dashboard__right_top-right-input input::placeholder {
+  font-size: 22px;
+  line-height: 33px;
+  color: #d9d9d9;
+}
+
+.dashboard__right_top-right-input button {
+  width: 24.02px;
+  height: 24.02px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard__right_top-right-input input[text] {
+  color: #9b9b9b;
+}
+
+.dashboard__right_top-right-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: #1e1e1e;
+  border-radius: 7px;
+  width: 221px;
+  height: 57px;
+  cursor: pointer;
+}
